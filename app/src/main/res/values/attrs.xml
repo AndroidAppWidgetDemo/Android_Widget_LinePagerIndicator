@@ -1,0 +1,18 @@
+<resources>
+
+
+    <!--滑块-->
+    <declare-styleable name="LinePagerIndicator">
+        <!-- 模式 -->
+        <attr name="indicatorModel" format="integer" />
+        <!-- 滑块宽度 -->
+        <attr name="indicatorWidth" format="dimension" />
+        <!-- 滑块高度 -->
+        <attr name="indicatorHeightl" format="dimension" />
+        <!-- 圆角 -->
+        <attr name="indicatorRoundRadius" format="dimension" />
+        <!-- 颜色 -->
+        <attr name="indicatorColor" format="color" />
+    </declare-styleable>
+
+</resources>

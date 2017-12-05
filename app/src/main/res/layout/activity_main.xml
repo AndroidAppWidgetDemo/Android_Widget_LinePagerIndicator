@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+
+    <!--viewPager-->
+    <include
+        android:id="@+id/include"
+        layout="@layout/viewpager_tab" />
+
+
+    <com.xiaxl.test.widget.LinePagerIndicator
+        android:id="@+id/LinePagerIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="42dp"
+        app:indicatorColor="#EE1A1A"
+        app:indicatorHeightl="2dp"
+        app:indicatorModel="2"
+        app:indicatorRoundRadius="0dp"
+        app:indicatorWidth="15dp" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp" />
+
+
+</RelativeLayout>
